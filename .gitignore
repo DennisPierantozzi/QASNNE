@@ -1,0 +1,38 @@
+# Python caches and artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Logs and runtime files
+*.log
+logs/
+
+# Local configuration and secrets
+.env
+.env.*
+.env.example
+.python-version
+.huggingface/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+
+# macOS
+.DS_Store
+
+# Data or experiment artifacts
+outputs/
+checkpoints/
+*.ckpt
