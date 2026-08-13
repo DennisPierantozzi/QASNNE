@@ -1,4 +1,23 @@
-# When to Trust the Answer: Question-Aligned Semantic Neighbour Entropy for Safer Surgical VQA
+<div align="center">
+
+<h2>When to Trust the Answer: Question-Aligned Semantic Neighbour Entropy for Safer Surgical VQA</h2>
+
+<p>
+Dennis Pierantozzi*, Luca Carlini*, Mauro Orazio Drago, <br>
+Chiara Lena, Cesare Hassan, Elena De Momi, <br>
+Danail Stoyanov, Sophia Bano, and Mobarak I. Hoque*
+</p>
+
+---
+
+<table align="center">
+  <tr>
+    <td><b><a href="https://arxiv.org/abs/2511.01458">📄 arXiv Preprint</a></b></td>
+    <td><b><a href="https://doi.org/10.1007/s11548-026-03750-9">🏛️ Springer Journal</a></b></td>
+  </tr>
+</table>
+
+</div>
 
 ## Overview
 QA-SNNE is a black-box, **question-aligned** uncertainty estimator for surgical visual question answering (VQA). It computes semantic nearest-neighbor entropy over sampled answers and **weights similarities by question–answer alignment**, enabling reference-free hallucination and ambiguity detection without accessing model internals.
