@@ -145,13 +145,11 @@ print(answer, entropy)
 
 Update the dataset roots in `utils/data_utils.py` before running dataset-driven scripts; the defaults point to institutional storage under `/SAN/...`.
 
-To pull the EndoVis Out-of-Template evaluation split introduced in this work, run:
+To pull the EndoVis and the EndoVis Out-of-Template evaluation split introduced in this work, you can download it directly from our public Hugging Face repository. Ensure you have the `huggingface_hub` library installed (`pip install huggingface_hub`), then run:
 
 ```bash
-gdown --id 1NfVaNWvQPpKx9Ohr0WyCkKTHYk_cYMPA
+huggingface-cli download --repo-type dataset DennisPolimi/QASNNE --local-dir ./dataset_folder
 ```
-
-Place the downloaded archive according to the paths you configure in `utils/data_utils.py`.
 
 ### Batch scripts
 
