@@ -37,7 +37,7 @@ from sentence_transformers import SentenceTransformer
 
 from transformers import AutoTokenizer, AutoModelForSequenceClassification 
 from utils.semantic_nn_entropy import snne, lexical_similarity_matrix
-from uncertainty.semantic_entropy import (
+from utils.semantic_entropy import (
     cluster_assignment_entropy,
     get_semantic_ids,
     predictive_entropy,

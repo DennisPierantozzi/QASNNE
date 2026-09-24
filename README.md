@@ -33,7 +33,7 @@ This is a preclinical methodological study: QA-SNNE is intended for evaluating a
 - **Question-aware gating** focuses uncertainty on answers that actually address the query.
 - **Black-box compatibility** with fine-tuned and proprietary LVLMs.
 - **Robustness to paraphrases** and out-of-template wording.
-- **EndoVis18-VQA Out-of-Template benchmark** released: 2,754 image–question pairs in which only the question wording changes, while images, answers and splits stay identical to the original validation split.
+- **EndoVis18-VQA Out-of-Template benchmark** released: 2,754 image–question pairs in which only the question wording changes, while images, answers and splits stay identical to the original validation split. Rephrasings were drafted with a large language model and manually verified to preserve clinical intent, answer type and referent.
 
 ## Method (at a glance)
 1. Sample multiple answers at high temperature.
