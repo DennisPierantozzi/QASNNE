@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or the EndoVis18-VQA Out-of-Template dataset, please cite the paper below."
+title: "QA-SNNE: Question-Aligned Semantic Nearest Neighbor Entropy for Safer Surgical VQA"
+type: software
+license: MIT
+repository-code: "https://github.com/DennisPierantozzi/QASNNE"
+authors: &authors
+  - family-names: Carlini
+    given-names: Luca
+  - family-names: Pierantozzi
+    given-names: Dennis
+  - family-names: Drago
+    given-names: Mauro Orazio
+  - family-names: Lena
+    given-names: Chiara
+  - family-names: Hassan
+    given-names: Cesare
+  - family-names: De Momi
+    given-names: Elena
+  - family-names: Stoyanov
+    given-names: Danail
+  - family-names: Bano
+    given-names: Sophia
+  - family-names: Hoque
+    given-names: Mobarak I.
+preferred-citation:
+  type: article
+  title: "When to Trust the Answer: Question-Aligned Semantic Nearest Neighbor Entropy for Safer Surgical VQA"
+  authors: *authors
+  journal: "International Journal of Computer Assisted Radiology and Surgery"
+  year: 2026
+  doi: "10.1007/s11548-026-03750-9"
